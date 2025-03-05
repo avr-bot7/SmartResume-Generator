@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-API_KEY = "AIzaSyDx2o6CC3gEu3bx19mh4iqYr-J9z5dTaWw"  #API key
+API_KEY = "API"  #API key is removed due to git warning 
 genai.configure(api_key=API_KEY)
 
 generation_config = {
